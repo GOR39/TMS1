@@ -350,6 +350,16 @@ li.pricing__item {
     border-radius: 10px;   
 }
 
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 10px solid #86878B;
+    margin-left: 60px;
+}
+
+
 .feedback__customer {
     display: flex;   
 }
