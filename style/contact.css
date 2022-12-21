@@ -1,0 +1,35 @@
+.contact {
+    width: 1170px; 
+    height: 665px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.contact-form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0px 20px;
+}
+.form-input-container,
+.form-textarea-container {
+	width: 50%;
+	margin-bottom: 20px;
+}
+.contact-form-textarea {
+	height: 183px;
+	resize: none;
+}
+.form-submit-container {
+	padding: 20px 140px;
+    /* width: 370px;
+    height: 58px; */
+    margin: 0 auto;
+	background: #EC7979;
+    border: 0;
+}
+.contact-form-submit {
+	margin-left: calc(50% - 50px);
+	border: none;
+	font-size: 0.9rem;
+	cursor: pointer;
+}

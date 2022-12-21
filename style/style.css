@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
-
+@import url(./header.css);
+@import url(./home.css);
+@import url(./social.css);
+@import url(./table-blocks.css);
+@import url(./awesome.css);
+@import url(./pricing.css);
+@import url(./feedback.css);
+@import url(./design.css);
+@import url(./contact.css);
+@import url(./footer.css);
 * {
     margin: 0;
     padding: 0;     
 }
-/*
 
+
+
+
+
+
+
+/*
 .wrapper {
     padding: 20px;
     width: 1170px;
@@ -81,316 +96,9 @@
 }
 
 /*блок awesome*/
-/*
-.awesome {
-    width: 1170px; 
-    height: 665px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.main-title {   
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    margin: 0;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content:center;      
-    color: #000000;    
-    text-transform: uppercase;
-    width: 1170px;
-    height: 150px;
-}
-
-.container {
-    position: center;
-    width: 1170px;
-    height: 150px;
-    text-align: center;   
-}
-
-.pricing__tittle__separator,
-.feedback__tittle__separator, 
-.awesome__title__seporator {
-	width: 170px;
-	height: 1px;
-	background-color: #EC7979;
-	margin: 0 auto 30px;
-}
-
-.pricing__text,
-.feedback__text, 
-.awesome__subheading {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #86878B;
-    margin: 0px auto; 
-    text-align: center;
-}
-
-.special_title title {
-    font-family: "Raleway";
-    font-size: 36px;   
-}
-
-.container_boxex {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 1170px;
-    height: 383px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 90px;
-}
-
-.box1 .box2 .box3 {
-    width: 370px;
-    height: 383px;
-    display: flex;
-}
-  
-h4 {
-    font-family: "Open+Sans";
-    font-size: 24px;
-    width: 369px;
-    height: 100px;
-}
-
-p {
-    font-family: "Raleway";
-    font-size: 18px;
-}
-*/
-/*<Блок pricing*/
-
-.pricing {
-    background: #F5F5F5; 
-}
 
 
-.pricing__container {
-    width: 1170px;
-    height: 800px;
-    margin: 0 auto;
-    background: #F5F5F5; 
-    padding: 15px;
-}
 
-.main-title {   
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    margin: 0;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content:center;      
-    color: #000000;    
-    text-transform: uppercase;
-    width: 1170px;
-    height: 150px;
-        
-}
-
-.pricing__tittle__separator,
-.feedback__tittle__separator {
-	width: 170px;
-	height: 1px;
-	background-color: #EC7979;
-	margin: 0 auto 30px;
-}
-
-.pricing__text,
-.feedback__text {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #86878B;
-    margin: 0px auto; 
-    text-align: center;
-}
-
-.pricing__list {
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: end;
-    align-items: flex-end;
-    filter: drop-shadow(0px 4px 10px);
-    margin-top: 60px;
-}
-
-.pricing__item {
-    width: 31%;
-    transform: translateX(0px);
-    transform: translateY(20px);
-}
-  
-.pricing__item:hover {
-    transform: translateX(0px);
-}
-
-li.pricing__item {
-    text-align: -webkit-match-parent;
-    width: 370px;
-    height: 510px;
-}
-
- ul.pricing__list,
- ul.feedback__list {
-    list-style-type: none;
-}
-.pricing__header {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 24px;
-    width: 370px;
-    height: 60;
-    color: #F5F5F5;
-    background: #333333;
-    align-items: center;
-    text-align: center;
-}
-.pricing__price {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    width: 370px;
-    height: 100px;
-    color: #F5F5F5;
-    border-width: 2px;
-    border-style: solid none;
-    border-color: #F5F5F5;
-    background: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
-
-.pricing__payment-text {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    width: 370px;
-    height: 50px;
-    color: #F5F5F5;
-    background: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: center;      
-}
-
-.pricing__options {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    width: 370px;
-    height: 50px;
-    color: #86878B;
-    list-style-type: none;
-   
-}
-.pricing__option1, .pricing__option2,
-.pricing__option3, .pricing__option4,
-.pricing__option5, .pricing__option6 {
-    width: 370px;
-    height: 50px;
-    background:#FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
-
-.pricing__price-part-1 {
-    font-size: 36px;
-    
-}
-.pricing__price-part-2 {
-    font-size: 30px;   
-}
-
-/*customeres*/
-
-.feedback {
-    width: 1170px;
-    height: 800px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-.feedback__list {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-
-
-.feedback__quote {
-    display: flex;
-    align-items: center;
-    justify-content:center; 
-    text-align: center;
-    width: 370px;
-    height: 180px;
-    background-color: #86878B;
-    border-radius: 10px;   
-}
-
-#triangle-down {
-	width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 10px solid #86878B;
-    margin-left: 60px;
-}
-
-
-.feedback__customer {
-    display: flex;   
-}
-
-.feedback__photo {
-    margin-top: 66px;
-}
-.feedback__name {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    margin-top: 66px;
-    margin-left: 30px;
-    width: 269px;
-    height: 54px;
-}
-
-.feedback__position {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
 
 
 

@@ -1,0 +1,110 @@
+.table-blocks{
+    max-width: 1170px;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 99px;
+}
+.table-blocks>input[type="radio"] {
+    display: none;
+}
+.table-blocks>input[type="radio"]:checked+label {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.label-title {   
+    padding: 15px 60px 0px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.table-blocks__content {
+    border: 1px solid #C6CBCD;
+    display: none;
+}
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+    display: block;
+}
+#tab-btn-1:checked~#title1,
+#tab-btn-2:checked~#title2,
+#tab-btn-3:checked~#title3 {
+    border: 1px solid #C6CBCD;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.table-blocks__title { 
+    width: 570px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin: 4% 0;
+}
+.table-blocks__text{
+    width: 570px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    float: left;
+    color: #000000;
+    margin: 0 0 38px 0;
+}
+.table-blocks__description {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+}
+.table-blocks__description-text {
+    margin-left: 5%;
+}
+.preview-image {
+    margin-left: auto;
+}
+.feature-img {
+    width: 470px;
+    height: 500px;
+}
+
+.button_table-Download {
+    height: 58px;
+    width: 270px;
+    background: #EC7979;
+    border-width: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_table-Download:hover {
+    height: 58px;
+    width: 270px;
+    background: #AB4949;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.button_table-Download:active {
+    height: 58px;
+    width: 270px;
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}

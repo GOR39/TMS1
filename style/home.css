@@ -1,0 +1,116 @@
+.home-content {
+    width: 1170px;
+    margin: 0 auto;
+	position: relative;
+	padding: 200px 0px;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+}
+.home-text {
+	color: white;
+	margin: 0px 20px;
+	width: 50%;
+}
+.home-heading {
+	font-size: 3.5rem;
+	margin-bottom: 10px;
+}
+.home-heading-span {
+	color: #EC7979;
+	font-weight: 400;
+}
+.home-heading2 {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.home-line {
+	height: 1px;
+	width: 25%;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.home-par {
+	font-weight: 300;
+	line-height: 1.8;
+	margin-bottom: 50px;
+}
+.home-link,
+.design-link {
+	color: white;
+	border: 2px solid white;
+	padding: 15px 60px;
+}
+.home-link:hover,
+.design-link:hover {
+	color: black;
+	background-color: gray;
+}
+
+/*.home-overlay/*,
+.design-overlay {
+	/*position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 5;
+}*/
+
+
+.home-form-container {
+	width: 40%;
+	align-self: center;
+	background-color: white;
+	margin: 0px 20px; 
+    border-radius: 20px;
+}
+.home-form-heading {
+	padding: 15px 25px;
+	text-align: center;
+    text-transform: uppercase;
+	font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.home-form-span {
+	text-transform: uppercase;
+	color: #EC7979;
+}
+.home-form-input,
+.contact-form-input {
+	border: none;
+	width: calc(100% - 105px);
+	margin: 20px 40px;
+	padding: 10px 10px;
+	font-size: 1rem;
+	border: 2px solid white;
+	border-bottom: 2px solid grey;
+}
+.home-form-input:focus,
+.contact-form-input:focus {
+	outline: none;
+	border: 2px solid #d6d6d6;	
+}
+.home-form-input:last-of-type {
+	margin-bottom: 50px;
+}
+.home-form-submit {
+	width: 100%;
+	background-color: #EC7979;
+	text-align: center;
+	border: none;
+	display: block;
+	color: white;
+	font-size: 1rem;
+	padding: 15px 0px;
+	cursor: pointer;
+    border-radius: 0 0 20px 20px;
+}
+.home-form-submit:hover {
+	background-color: #ea8f4c;
+}

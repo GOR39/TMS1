@@ -1,0 +1,37 @@
+.header {
+    height: 1026px;
+    background:  linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.452)), url(../images/hed.png);
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+}
+.header__top {
+    height: 75px;
+    background-color: #000000;
+    display: flex;
+	margin:0 auto;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;  
+}
+.header-logo {
+    margin-left: 5%;
+}
+.header-nav{
+    display: flex;
+	justify-content: space-around;
+	width: 570px;
+    margin-right: 170px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.header-nav__link{
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
