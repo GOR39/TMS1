@@ -11,94 +11,9 @@
 @import url(./footer.css);
 * {
     margin: 0;
-    padding: 0;     
+    padding: 0;    
+    box-sizing: border-box; 
 }
-
-
-
-
-
-
-
-/*
-.wrapper {
-    padding: 20px;
-    width: 1170px;
-    height: 540px;  
-}
-
-.wrapper input[type="radio"] {
-    display: none;
-}
-
-.content1, .content2, .content3 {
-    display: none;     
-}
-
-.title {
-    border-top: 1px solid #C6CBCD;
-    border-left: 1px solid #C6CBCD;
-    border-right: 1px solid #C6CBCD;
-    border-radius: 5px 5px 0px 0px;   
-}
-
-.tab-content {
-    border: 1px solid #C6CBCD;
-    float: right;  
-}
-
-#btn1:checked ~ .content1 {
-    display: block;
-    padding-bottom: 2px;
-    background: white;
-    
-}
-#btn2:checked ~ .content2 {
-    display: block;
-}
-#btn3:checked ~ .content3 {
-    display: block;
-}
-
-.feature-img {
-    height: 500px;
-    width: 470px;
-    left: 870px;
-    top: 1303px;
-    border-radius: 0px;
-}
-
-.button_red {
-    font-family: "Open+Sans";
-    font-size: 15px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 600;
-    background-color:  #EC7979;
-    padding: 8px 43px;
-    position: absolute;
-    text-decoration: none;
-}
-
-.button-red:hover {
-    color: #FFCA00;
-    background-color: #250F8A;
-}
-
-.tabs__title {
-    font-family: "Open+Sans";
-    font-size: 24px;
-}
-
-.tab_text { 
-    font-family: "Raleway";
-    font-size: 14px;
-}
-
-/*блок awesome*/
-
-
-
 
 
 

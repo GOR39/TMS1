@@ -1,6 +1,5 @@
 .table-blocks{
     max-width: 1170px;
-    width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
     margin-top: 99px;
@@ -36,7 +35,7 @@
     border-bottom: 3px solid rgb(255, 255, 255);
 }
 .table-blocks__title { 
-    width: 570px;
+    max-width: 570px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -45,7 +44,7 @@
     margin: 4% 0;
 }
 .table-blocks__text{
-    width: 570px;
+    max-width: 570px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -59,7 +58,6 @@
     display: flex;
     padding: 0px;
     width: 100%;
-    display: flex;
 }
 .table-blocks__description-text {
     margin-left: 5%;
@@ -71,7 +69,6 @@
     width: 470px;
     height: 500px;
 }
-
 .button_table-Download {
     height: 58px;
     width: 270px;
@@ -107,4 +104,59 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
+}
+@media only screen and (max-width:1200px){
+    .label-title{ 
+        padding: 15px 40px 0px;
+    }
+    .table-blocks__title{
+        max-width: 483px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .table-blocks__text{
+        max-width: 483px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .button_table-Download {
+        width: 231px;
+    }
+    .feature-img {
+        max-width: 398px;
+        max-height: 385px;
+    }
+}
+@media only screen and (max-width:860px) { 
+    .table-blocks__content {
+        text-align: center;
+    }
+    .label-title{ 
+        padding: 15px 20px 0px;
+    }
+    .table-blocks__description {
+        display: block;
+    }
+    .table-blocks__description-text{
+        margin-right: 5%;
+    }
+    .table-blocks__title{
+        margin-top: 10%;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .table-blocks__text{
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .button_table-Download {
+        width: 242px;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .preview-image {
+        display: none;
+    }
 }

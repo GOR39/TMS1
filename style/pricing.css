@@ -1,56 +1,13 @@
-
 .pricing {
-    background: #F5F5F5; 
+    background: #F5F5F5;  
 }
-
-
 .pricing__container {
-    width: 1170px;
-    height: 800px;
+    max-width: 1170px;
+    max-height: 800px;
     margin: 0 auto;
     background: #F5F5F5; 
     padding: 15px;
 }
-
-.main-title {   
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    margin: 0;
-    line-height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content:center;     
-    color: #000000;    
-    text-transform: uppercase;
-    height: 150px;  
-}
-
-.pricing__tittle_separator,
-.feedback__tittle_separator,
-.design__tittle_separator,
-.contact__tittle_separator {
-	width: 170px;
-	height: 1px;
-	background-color: #EC7979;
-	margin: 0 auto 30px;
-}
-
-.pricing__text,
-.feedback__text,
-.design__text,
-.contact__text {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #86878B;
-    margin: 0px auto; 
-    text-align: center;
-}
-
 .pricing__list {
     display: flex;
     -webkit-box-pack: justify;
@@ -58,9 +15,8 @@
     -webkit-box-align: end;
     align-items: flex-end;
     filter: drop-shadow(0px 4px 10px);
-    margin-top: 60px;
+    margin-top: 4%;
 }
-
 .pricing__item {
     width: 31%;
     transform: translateX(0px);
@@ -69,13 +25,11 @@
 .pricing__item:hover {
     transform: translateX(0px);
 }
-
 li.pricing__item {
     text-align: -webkit-match-parent;
-    width: 370px;
+    max-width: 370px;
     height: 510px;
 }
-
 ul.pricing__list,
 ul.feedback__list {
     list-style-type: none;
@@ -84,7 +38,8 @@ ul.feedback__list {
     font-family: 'Open Sans';
     font-style: normal;
     font-size: 24px;
-    width: 370px;
+    line-height: 33px;
+    max-width: 370px;
     height: 60;
     color: #F5F5F5;
     background: #333333;
@@ -96,8 +51,9 @@ ul.feedback__list {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    width: 370px;
-    height: 100px;
+    line-height: 42px;
+    max-width: 370px;
+    max-height: 100px;
     color: #F5F5F5;
     border-width: 2px;
     border-style: solid none;
@@ -107,13 +63,13 @@ ul.feedback__list {
     align-items: center;
     justify-content: center;  
 }
-
 .pricing__payment-text {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    width: 370px;
+    line-height: 21px;
+    max-width: 370px;
     height: 50px;
     color: #F5F5F5;
     background: #333333;
@@ -121,29 +77,27 @@ ul.feedback__list {
     align-items: center;
     justify-content: center;      
 }
-
 .pricing__options {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    width: 370px;
-    height: 50px;
+    max-width: 370px;
+    max-height: 50px;
     color: #86878B;
     list-style-type: none;
 }
 .pricing__option1, .pricing__option2,
 .pricing__option3, .pricing__option4,
 .pricing__option5, .pricing__option6 {
-    width: 370px;
+    max-width: 370px;
     height: 50px;
     background:#FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;  
 }
-
 .pricing__price-part-1 {
     font-size: 36px;
     
@@ -151,3 +105,68 @@ ul.feedback__list {
 .pricing__price-part-2 {
     font-size: 30px;   
 }
+@media only screen and (max-width:860px) { 
+    .pricing__container {
+        max-width: 320px;
+        max-height: 1480px;
+        margin: 0 auto;
+        background: #F5F5F5;
+        padding: 15px;
+    }
+    .pricing__header {
+        min-width: 288px;
+        max-height: 47px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .pricing__list{
+        display: block;
+    }
+    .pricing__item {
+        max-width: 280px;
+    }
+    li.pricing__item{
+        max-width: 280px;
+        height: 400px;
+    }
+    .pricing__price {
+        min-width: 288px;
+        max-height: 78px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .pricing__price-part-1 {
+        font-size: 29px;
+    }
+    .pricing__price-part-2 {
+        font-size: 28px;   
+    }
+    .pricing__option1, .pricing__option2,
+    .pricing__option3, .pricing__option4,
+    .pricing__option5, .pricing__option6 {
+        min-width: 288px;
+        max-height: 39px;
+    }
+    .pricing__options {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .pricing__payment-text {
+        min-width: 288px;
+        max-height: 39px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

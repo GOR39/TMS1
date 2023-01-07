@@ -24,14 +24,21 @@
                 <div class="header-logo">
                     <a href="#">
                         <img src="./images/logo.png" alt="">
+                    </a>
                 </div>
-                <nav class="header-nav">
-                    <a href="#" class="header-nav__link">Features</a>
-                    <a href="#" class="header-nav__link">About</a>
-                    <a href="#" class="header-nav__link">Pricing</a>
-                    <a href="#" class="header-nav__link">Reviews</a>
-                    <a href="#" class="header-nav__link">Contact</a>
-                </nav>
+                <div class="hamburger-menu">
+                    <input id="burger_toggle" type="checkbox" />
+                    <label class="burger_btn" for="burger_toggle">
+                        <span></span>
+                    </label>
+                    <nav class="header-nav">
+                        <a href="#table-blocks" class="header-nav__link">Features</a>
+                        <a href="#awesome" class="header-nav__link">About</a>
+                        <a href="#pricing" class="header-nav__link">Pricing</a>
+                        <a href="#feedback" class="header-nav__link">Reviews</a>
+                        <a href="#contact" class="header-nav__link">Contact</a>
+                    </nav>
+                </div>
             </div>
         </div>
         <div class="home-overlay"></div>
@@ -57,7 +64,6 @@
         </div>
         </div>
     </header>
-
     <div class="social">
         <div class="social__content">
             <div class="social__text-block">
@@ -68,14 +74,19 @@
                 </span>
             </div>
             <div class="social__icons">
-                <a href="https://www.facebook.com/" class="social__icons-link"><img src="./images/facebook_icon.png"
+                <a class="social__link" href="https://www.facebook.com/"><img class="social__img"
+                        src="./images/facebook_icon.png" alt=""></a>
+                <a class="social__link" href="https://twitter.com/"><img class="social__img" src="./images/twitter.png"
                         alt=""></a>
-                <a href="https://twitter.com/"><img src="./images/twitter.png" alt=""></a>
-                <a href="https://ru.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
-                <a href="https://www.pinterest.com/"><img src="./images/pinterest.png" alt=""></a>
-                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
-                <a href="https://github.com/"><img src="./images/github.png" alt=""></a>
-                <a href="#"></a><img src="./images/abaut.png" alt=""></a>
+                <a class="social__link" href="https://ru.linkedin.com/"><img class="social__img"
+                        src="./images/linkedin.png" alt=""></a>
+                <a class="social__link" href="https://www.pinterest.com/"><img class="social__img"
+                        src="./images/pinterest.png" alt=""></a>
+                <a class="social__link" href="https://www.instagram.com/"><img class="social__img"
+                        src="./images/instagram.png" alt=""></a>
+                <a class="social__link" href="https://github.com/"><img class="social__img" src="./images/github.png"
+                        alt=""></a>
+                <a class="social__link" href="header"><img class="social__img" src="./images/rss.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -152,53 +163,48 @@
                 </div>
             </div>
         </div>
-        <section class="awesome" id="awesome">
-            <div class="container awesome-container">
-                <h2 class="main-title main-title--level--2">why this awesome</h2>
-                <hr class="awesome__title__seporator">
-                <div class="pricing__text text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <section class="awesome" id="awesome">
+        <div class="container awesome-container">
+            <h2 class="main-title main-title--level--2">why this awesome</h2>
+            <hr class="awesome__title__seporator">
+            <div class="awesome__text text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="container_boxex">
+                <div class="container_box container__box_1">
+                    <div class="feature_box feature1">
+                        <img class="feature box feature1-img" src="images/about_icon_1.png" alt="">
+                        <h4>Thoughtful Design</h4>
+                        <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                            elit. Aenean euismod bibendum laoreet. <br> Proin gravida dolor sit amet lacus <br>
+                            accumsan et viverra.
+                        </p>
+                    </div>
                 </div>
-                <div class="container_boxex">
-                    <div class="container_box container__box_1">
-                        <div class="feature box feature1">
-                            <img class="feature box feature1-img" src="images/about_icon_1.png" alt="">
-                            <h4>Thoughtful Design</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                                elit. Aenean euismod bibendum laoreet. <br> Proin gravida dolor sit amet lacus <br>
-                                accumsan
-                                et
-                                viverra.
-                            </p>
-                        </div>
+                <div class="feature_box container__box_2">
+                    <div class="feature box feature2">
+                        <img class="feature box feature2-img" src="images/about_icon_2.png" alt="">
+                        <h4>Thoughtful Design</h4>
+                        <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                            elit. Aenean euismod bibendum laoreet. <br> Proin gravida dolor sit amet lacus <br>
+                            accumsan et viverra.
+                        </p>
                     </div>
-                    <div class="container_box container__box_2">
-                        <div class="feature box feature2">
-                            <img class="feature box feature2-img" src="images/about_icon_2.png" alt="">
-                            <h4>Thoughtful Design</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                                elit. Aenean euismod bibendum laoreet. <br> Proin gravida dolor sit amet lacus <br>
-                                accumsan
-                                et
-                                viverra.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="container_box container__box_3">
-                        <div class="feature box feature3">
-                            <img class="feature box feature3-img" src="images/about_icon_3.png" alt="">
-                            <h4>Thoughtful Design</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
-                                elit. Aenean euismod bibendum laoreet. <br> Proin gravida dolor sit amet lacus <br>
-                                accumsan
-                                et
-                                viverra.
-                            </p>
-                        </div>
+                </div>
+                <div class="container_box container__box_3">
+                    <div class="feature box feature3">
+                        <img class="feature box feature3-img" src="images/about_icon_3.png" alt="">
+                        <h4>Thoughtful Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                            elit. Aenean euismod bibendum laoreet. <br> Proin gravida dolor sit amet lacus <br>
+                            accumsan et viverra.
+                        </p>
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
+        </div>
     </section>
     <section class="pricing" id="pricing">
         <div class="container pricing__container">
@@ -327,6 +333,82 @@
                     </div>
                 </div>
             </div>
+            <div class="feadback__slider">
+                <div class="slider">
+                    <input class="feadback__input" type="radio" name="slide-dots" id="slide1" checked />
+                    <input class="feadback__input" type="radio" name="slide-dots" id="slide2" />
+                    <input class="feadback__input" type="radio" name="slide-dots" id="slide3" />
+                    <div class="slider-content">
+                        <div class="slides">
+                            <div class="slide slide1">
+                                <div class="feedback__item">
+                                    <div class="feedback__quote">
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Doloribus
+                                        accusamus expedita repellat similique
+                                        odio aspernatur ex, architecto eaque
+                                        quo suscipit.
+                                    </div>
+                                    <div class="triangle-down" id="triangle-down">
+                                    </div>
+                                    <div class="feedback__customer"><img class="feedback__photo" src="images/Davis.png"
+                                            width="70" height="70" alt="">
+                                        <div class="feedback__customer-text">
+                                            <div class="feedback__name">Davis Rhiel Madsen</div>
+                                            <div class="feedback__position">Manager</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide2">
+                                <div class="feedback__item">
+                                    <div class="feedback__quote">
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Doloribus
+                                        accusamus expedita repellat similique
+                                        odio aspernatur ex, architecto eaque
+                                        quo suscipit.
+                                    </div>
+                                    <div class="triangle-down" id="triangle-down">
+                                    </div>
+                                    <div class="feedback__customer"><img class="feedback__photo" src="images/Jaydon.png"
+                                            width="70" height="70" alt="">
+                                        <div class="feedback__customer-text">
+                                            <div class="feedback__name">Jaydon Rosser</div>
+                                            <div class="feedback__position">Manager</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide3">
+                                <div class="feedback__item">
+                                    <div class="feedback__quote">
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Doloribus
+                                        accusamus expedita repellat similique
+                                        odio aspernatur ex, architecto eaque
+                                        quo suscipit.
+                                    </div>
+                                    <div class="triangle-down" id="triangle-down">
+                                    </div>
+                                    <div class="feedback__customer"><img class="feedback__photo" src="images/Cooper.png"
+                                            width="70" height="70" alt="">
+                                        <div class="feedback__customer-text">
+                                            <div class="feedback__name">Cooper Dorwart</div>
+                                            <div class="feedback__position">Manager</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <label class="dot dot1" for="slide1"></label>
+                        <label class="dot dot2" for="slide2"></label>
+                        <label class="dot dot3" for="slide3"></label>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="design" id="design">
@@ -365,15 +447,20 @@
     </section>
     <div class="footer" id="footer">
         <div class="footer__content">
-            <div class="footer__icon-block">
-                <a href="https://www.facebook.com/" class="social__icons-link"><img src="./images/facebook_icon.png"
-                        alt=""></a>
-                <a href="https://twitter.com/"><img src="./images/twitter.png" alt=""></a>
-                <a href="https://ru.linkedin.com/"><img src="./images/linkedin.png" alt=""></a>
-                <a href="https://www.pinterest.com/"><img src="./images/pinterest.png" alt=""></a>
-                <a href="https://www.instagram.com/"><img src="./images/instagram.png" alt=""></a>
-                <a href="https://github.com/"><img src="./images/github.png" alt=""></a>
-                <a href="#"></a><img src="./images/abaut.png" alt=""></a>
+            <div class="footer__icons-block">
+                <a class="footer__icon-link" href="https://www.facebook.com/"><img class="footer__img"
+                        src="./images/facebook_icon.png" alt=""></a>
+                <a class="footer__icon-link" href="https://twitter.com/"><img class="footer__img"
+                        src="./images/twitter.png" alt=""></a>
+                <a class="footer__icon-link" href="https://ru.linkedin.com/"><img class="footer__img"
+                        src="./images/linkedin.png" alt=""></a>
+                <a class="footer__icon-link" href="https://www.pinterest.com/"><img class="footer__img"
+                        src="./images/pinterest.png" alt=""></a>
+                <a class="footer__icon-link" href="https://www.instagram.com/"><img class="footer__img"
+                        src="./images/instagram.png" alt=""></a>
+                <a class="footer__icon-link" href="https://github.com/"><img class="footer__img"
+                        src="./images/github.png" alt=""></a>
+                <a class="footer__icon-link" href="#!"><img class="footer__img" src="./images/rss.png" alt=""></a>
             </div>
             <span class="footer__avthor">© 2015 Axure Themes</span>
         </div>
